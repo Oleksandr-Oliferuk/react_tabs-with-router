@@ -12,7 +12,6 @@ export const TabsPage: React.FC = () => {
   const { tabId } = useParams();
 
   useEffect(() => {
-    // console.log(tabId);
     if (tabId) {
       const tab = tabs.find(table => table.id === tabId);
 
